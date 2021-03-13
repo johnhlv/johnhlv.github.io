@@ -1,0 +1,801 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.22.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Python is cool from Huyen Chip - Your awesome title</title>
+<meta name="description" content="A gentle guide to the Python features that I didn’t know existed or was too afraid to use. This will be updated as I learn more and become less lazy.">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Your awesome title">
+<meta property="og:title" content="Python is cool from Huyen Chip">
+<meta property="og:url" content="/jekyll/update/2021/03/14/hello-world.html">
+
+
+  <meta property="og:description" content="A gentle guide to the Python features that I didn’t know existed or was too afraid to use. This will be updated as I learn more and become less lazy.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2021-03-14T04:10:57+07:00">
+
+
+
+
+
+
+<link rel="canonical" href="/jekyll/update/2021/03/14/hello-world.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Your awesome title Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Your awesome title
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/">Quick-Start Guide</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://johnhlv.github.io/">About</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Python is cool from Huyen Chip">
+    <meta itemprop="description" content="A gentle guide to the Python features that I didn’t know existed or was too afraid to use. This will be updated as I learn more and become less lazy.">
+    <meta itemprop="datePublished" content="2021-03-14T04:10:57+07:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Python is cool from Huyen Chip
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>A gentle guide to the Python features that I didn’t know existed or was too afraid to use. This will be updated as I learn more and become less lazy.</p>
+
+<p>This uses <code class="language-plaintext highlighter-rouge">python &gt;= 3.6</code>.</p>
+
+<p>GitHub has problem rendering Jupyter notebook so I copied the content here. I still keep the notebook in case you want to clone and run it on your machine, but you can also click the Binder badge below and run it in your browser.</p>
+
+<p><a href="https://mybinder.org/v2/gh/chiphuyen/python-is-cool/master?urlpath=lab/tree/cool-python-tips.ipynb"><img src="https://mybinder.org/badge_logo.svg" alt="Binder" /></a></p>
+
+<h2 id="1-lambda-map-filter-reduce">1. Lambda, map, filter, reduce</h2>
+<p>The lambda keyword is used to create inline functions. The functions<code class="language-plaintext highlighter-rouge">square_fn</code> and <code class="language-plaintext highlighter-rouge">square_ld</code> below are identical.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">square_fn</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">x</span> <span class="o">*</span> <span class="n">x</span>
+
+<span class="n">square_ld</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">*</span> <span class="n">x</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+    <span class="k">assert</span> <span class="n">square_fn</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="o">==</span> <span class="n">square_ld</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Its quick declaration makes <code class="language-plaintext highlighter-rouge">lambda</code> functions ideal for use in callbacks, and when functions are to be passed as arguments to other functions. They are especially useful when used in conjunction with functions like <code class="language-plaintext highlighter-rouge">map</code>, <code class="language-plaintext highlighter-rouge">filter</code>, and <code class="language-plaintext highlighter-rouge">reduce</code>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">map(fn, iterable)</code> applies the <code class="language-plaintext highlighter-rouge">fn</code> to all elements of the <code class="language-plaintext highlighter-rouge">iterable</code> (e.g. list, set, dictionary, tuple, string) and returns a map object.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">nums</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="o">/</span><span class="mi">3</span><span class="p">,</span> <span class="mi">333</span><span class="o">/</span><span class="mi">7</span><span class="p">,</span> <span class="mi">2323</span><span class="o">/</span><span class="mi">2230</span><span class="p">,</span> <span class="mi">40</span><span class="o">/</span><span class="mi">34</span><span class="p">,</span> <span class="mi">2</span><span class="o">/</span><span class="mi">3</span><span class="p">]</span>
+<span class="n">nums_squared</span> <span class="o">=</span> <span class="p">[</span><span class="n">num</span> <span class="o">*</span> <span class="n">num</span> <span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="n">nums</span><span class="p">]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">nums_squared</span><span class="p">)</span>
+
+<span class="o">==&gt;</span> <span class="p">[</span><span class="mf">0.1111111</span><span class="p">,</span> <span class="mf">2263.04081632</span><span class="p">,</span> <span class="mf">1.085147</span><span class="p">,</span> <span class="mf">1.384083</span><span class="p">,</span> <span class="mf">0.44444444</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>This is the same as calling using <code class="language-plaintext highlighter-rouge">map</code> with a callback function.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">nums_squared_1</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="n">square_fn</span><span class="p">,</span> <span class="n">nums</span><span class="p">)</span>
+<span class="n">nums_squared_2</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">*</span> <span class="n">x</span><span class="p">,</span> <span class="n">nums</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">nums_squared_1</span><span class="p">))</span>
+
+<span class="o">==&gt;</span> <span class="p">[</span><span class="mf">0.1111111</span><span class="p">,</span> <span class="mf">2263.04081632</span><span class="p">,</span> <span class="mf">1.085147</span><span class="p">,</span> <span class="mf">1.384083</span><span class="p">,</span> <span class="mf">0.44444444</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>You can also use <code class="language-plaintext highlighter-rouge">map</code> with more than one iterable. For example, if you want to calculate the mean squared error of a simple linear function <code class="language-plaintext highlighter-rouge">f(x) = ax + b</code> with the true label <code class="language-plaintext highlighter-rouge">labels</code>, these two methods are equivalent:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span>
+<span class="n">xs</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
+<span class="n">labels</span> <span class="o">=</span> <span class="p">[</span><span class="mf">6.4</span><span class="p">,</span> <span class="mf">8.9</span><span class="p">,</span> <span class="mf">10.9</span><span class="p">,</span> <span class="mf">15.3</span><span class="p">]</span>
+
+<span class="c1"># Method 1: using a loop
+</span><span class="n">errors</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">xs</span><span class="p">):</span>
+    <span class="n">errors</span><span class="p">.</span><span class="n">append</span><span class="p">((</span><span class="n">a</span> <span class="o">*</span> <span class="n">x</span> <span class="o">+</span> <span class="n">b</span> <span class="o">-</span> <span class="n">labels</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="o">**</span> <span class="mi">2</span><span class="p">)</span>
+<span class="n">result1</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">errors</span><span class="p">)</span> <span class="o">**</span> <span class="mf">0.5</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">xs</span><span class="p">)</span>
+
+<span class="c1"># Method 2: using map
+</span><span class="n">diffs</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="p">(</span><span class="n">a</span> <span class="o">*</span> <span class="n">x</span> <span class="o">+</span> <span class="n">b</span> <span class="o">-</span> <span class="n">y</span><span class="p">)</span> <span class="o">**</span> <span class="mi">2</span><span class="p">,</span> <span class="n">xs</span><span class="p">,</span> <span class="n">labels</span><span class="p">)</span>
+<span class="n">result2</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">diffs</span><span class="p">)</span> <span class="o">**</span> <span class="mf">0.5</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">xs</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">result1</span><span class="p">,</span> <span class="n">result2</span><span class="p">)</span>
+
+<span class="o">==&gt;</span> <span class="mf">0.35089172119045514</span> <span class="mf">0.35089172119045514</span>
+</code></pre></div></div>
+
+<p>Note that objects returned by <code class="language-plaintext highlighter-rouge">map</code> and <code class="language-plaintext highlighter-rouge">filter</code> are iterators, which means that their values aren’t stored but generated as needed. After you’ve called <code class="language-plaintext highlighter-rouge">sum(diffs)</code>, <code class="language-plaintext highlighter-rouge">diffs</code> becomes empty. If you want to keep all elements in <code class="language-plaintext highlighter-rouge">diffs</code>, convert it to a list using <code class="language-plaintext highlighter-rouge">list(diffs)</code>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">filter(fn, iterable)</code> works the same way as <code class="language-plaintext highlighter-rouge">map</code>, except that <code class="language-plaintext highlighter-rouge">fn</code> returns a boolean value and <code class="language-plaintext highlighter-rouge">filter</code> returns all the elements of the <code class="language-plaintext highlighter-rouge">iterable</code> for which the <code class="language-plaintext highlighter-rouge">fn</code> returns True.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bad_preds</span> <span class="o">=</span> <span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mf">0.5</span><span class="p">,</span> <span class="n">errors</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">bad_preds</span><span class="p">))</span>
+
+<span class="o">==&gt;</span> <span class="p">[</span><span class="mf">0.8100000000000006</span><span class="p">,</span> <span class="mf">0.6400000000000011</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">reduce(fn, iterable, initializer)</code> is used when we want to iteratively apply an operator to all elements in a list. For example, if we want to calculate the product of all elements in a list:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">product</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="n">nums</span><span class="p">:</span>
+    <span class="n">product</span> <span class="o">*=</span> <span class="n">num</span>
+<span class="k">print</span><span class="p">(</span><span class="n">product</span><span class="p">)</span>
+
+<span class="o">==&gt;</span> <span class="mf">12.95564683272412</span>
+</code></pre></div></div>
+
+<p>This is equivalent to:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">functools</span> <span class="kn">import</span> <span class="nb">reduce</span>
+<span class="n">product</span> <span class="o">=</span> <span class="nb">reduce</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span><span class="p">,</span> <span class="n">nums</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">product</span><span class="p">)</span>
+
+<span class="o">==&gt;</span> <span class="mf">12.95564683272412</span>
+</code></pre></div></div>
+
+<h3 id="note-on-the-performance-of-lambda-functions">Note on the performance of lambda functions</h3>
+
+<p>Lambda functions are meant for one time use. Each time <code class="language-plaintext highlighter-rouge">lambda x: dosomething(x)</code> is called, the function has to be created, which hurts the performance if you call <code class="language-plaintext highlighter-rouge">lambda x: dosomething(x)</code> multiple times (e.g. when you pass it inside <code class="language-plaintext highlighter-rouge">reduce</code>).</p>
+
+<p>When you assign a name to the lambda function as in <code class="language-plaintext highlighter-rouge">fn = lambda x: dosomething(x)</code>, its performance is slightly slower than the same function defined using <code class="language-plaintext highlighter-rouge">def</code>, but the difference is negligible. See <a href="https://stackoverflow.com/questions/26540885/lambda-is-slower-than-function-call-in-python-why">here</a>.</p>
+
+<p>Even though I find lambdas cool, I personally recommend using named functions when you can for the sake of clarity.</p>
+
+<h2 id="2-list-manipulation">2. List manipulation</h2>
+<p>Python lists are super cool.</p>
+
+<h3 id="21-unpacking">2.1 Unpacking</h3>
+<p>We can unpack a list by each element like this:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">elems</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
+<span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">d</span> <span class="o">=</span> <span class="n">elems</span>
+<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">d</span><span class="p">)</span>
+
+<span class="o">==&gt;</span> <span class="mi">1</span> <span class="mi">2</span> <span class="mi">3</span> <span class="mi">4</span>
+</code></pre></div></div>
+
+<p>We can also unpack a list like this:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span><span class="p">,</span> <span class="o">*</span><span class="n">new_elems</span><span class="p">,</span> <span class="n">d</span> <span class="o">=</span> <span class="n">elems</span>
+<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">new_elems</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">d</span><span class="p">)</span>
+
+<span class="o">==&gt;</span> <span class="mi">1</span>
+    <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+    <span class="mi">4</span>
+</code></pre></div></div>
+
+<h3 id="22-slicing">2.2 Slicing</h3>
+<p>We know that we can reverse a list using <code class="language-plaintext highlighter-rouge">[::-1]</code>.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">elems</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">elems</span><span class="p">)</span>
+
+<span class="o">==&gt;</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">elems</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+
+<span class="o">==&gt;</span> <span class="p">[</span><span class="mi">9</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+</code></pre></div></div>
+<p>The syntax <code class="language-plaintext highlighter-rouge">[x:y:z]</code> means "take every <code class="language-plaintext highlighter-rouge">z</code>th element of a list from index <code class="language-plaintext highlighter-rouge">x</code> to index <code class="language-plaintext highlighter-rouge">y</code>". When <code class="language-plaintext highlighter-rouge">z</code> is negative, it indicates going backwards. When <code class="language-plaintext highlighter-rouge">x</code> isn’t specified, it defaults to the first element of the list in the direction you are traversing the list. When <code class="language-plaintext highlighter-rouge">y</code> isn’t specified, it defaults to the last element of the list. So if we want to take every 2th element of a list, we use <code class="language-plaintext highlighter-rouge">[::2]</code>.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">evens</span> <span class="o">=</span> <span class="n">elems</span><span class="p">[::</span><span class="mi">2</span><span class="p">]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">evens</span><span class="p">)</span>
+
+<span class="n">reversed_evens</span> <span class="o">=</span> <span class="n">elems</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">::</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">reversed_evens</span><span class="p">)</span>
+
+<span class="o">==&gt;</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">]</span>
+    <span class="p">[</span><span class="mi">8</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>We can also use slicing to delete all the even numbers in the list.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">del</span> <span class="n">elems</span><span class="p">[::</span><span class="mi">2</span><span class="p">]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">elems</span><span class="p">)</span>
+
+<span class="o">==&gt;</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>
+</code></pre></div></div>
+
+<h3 id="23-insertion">2.3 Insertion</h3>
+<p>We can change the value of an element in a list to another value.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">elems</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
+<span class="n">elems</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="k">print</span><span class="p">(</span><span class="n">elems</span><span class="p">)</span>
+
+<span class="o">==&gt;</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>If we want to replace the element at an index with multiple elements, e.g. replace the value <code class="language-plaintext highlighter-rouge">1</code> with 3 values <code class="language-plaintext highlighter-rouge">20, 30, 40</code>:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">elems</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
+<span class="n">elems</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">elems</span><span class="p">)</span>
+
+<span class="o">==&gt;</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>If we want to insert 3 values <code class="language-plaintext highlighter-rouge">0.2, 0.3, 0.5</code> between element at index 0 and element at index 1:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">elems</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
+<span class="n">elems</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">elems</span><span class="p">)</span>
+
+<span class="o">==&gt;</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>
+</code></pre></div></div>
+
+<h3 id="24-flattening">2.4 Flattening</h3>
+<p>We can flatten a list of lists using <code class="language-plaintext highlighter-rouge">sum</code>.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">list_of_lists</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">]]</span>
+<span class="nb">sum</span><span class="p">(</span><span class="n">list_of_lists</span><span class="p">,</span> <span class="p">[])</span>
+
+<span class="o">==&gt;</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>If we have nested lists, we can recursively flatten it. That’s another beauty of lambda functions – we can use it in the same line as its creation.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">nested_lists</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">],</span> <span class="p">[[</span><span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">],</span> <span class="p">[</span><span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">],</span> <span class="p">[[</span><span class="mi">11</span><span class="p">,</span> <span class="p">[</span><span class="mi">12</span><span class="p">,</span> <span class="mi">13</span><span class="p">]]]]]]</span>
+<span class="n">flatten</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="p">[</span><span class="n">y</span> <span class="k">for</span> <span class="n">l</span> <span class="ow">in</span> <span class="n">x</span> <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="n">flatten</span><span class="p">(</span><span class="n">l</span><span class="p">)]</span> <span class="k">if</span> <span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="ow">is</span> <span class="nb">list</span> <span class="k">else</span> <span class="p">[</span><span class="n">x</span><span class="p">]</span>
+<span class="n">flatten</span><span class="p">(</span><span class="n">nested_lists</span><span class="p">)</span>
+
+<span class="c1"># This line of code is from
+# https://github.com/sahands/python-by-example/blob/master/python-by-example.rst#flattening-lists
+</span></code></pre></div></div>
+
+<h3 id="25-list-vs-generator">2.5 List vs generator</h3>
+<p>To illustrate the difference between a list and a generator, let’s look at an example of creating n-grams out of a list of tokens.</p>
+
+<p>One way to create n-grams is to use a sliding window.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">tokens</span> <span class="o">=</span> <span class="p">[</span><span class="s">'i'</span><span class="p">,</span> <span class="s">'want'</span><span class="p">,</span> <span class="s">'to'</span><span class="p">,</span> <span class="s">'go'</span><span class="p">,</span> <span class="s">'to'</span><span class="p">,</span> <span class="s">'school'</span><span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">ngrams</span><span class="p">(</span><span class="n">tokens</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+    <span class="n">length</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">tokens</span><span class="p">)</span>
+    <span class="n">grams</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">length</span> <span class="o">-</span> <span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
+        <span class="n">grams</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">tokens</span><span class="p">[</span><span class="n">i</span><span class="p">:</span><span class="n">i</span><span class="o">+</span><span class="n">n</span><span class="p">])</span>
+    <span class="k">return</span> <span class="n">grams</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">ngrams</span><span class="p">(</span><span class="n">tokens</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+
+<span class="o">==&gt;</span> <span class="p">[[</span><span class="s">'i'</span><span class="p">,</span> <span class="s">'want'</span><span class="p">,</span> <span class="s">'to'</span><span class="p">],</span>
+     <span class="p">[</span><span class="s">'want'</span><span class="p">,</span> <span class="s">'to'</span><span class="p">,</span> <span class="s">'go'</span><span class="p">],</span>
+     <span class="p">[</span><span class="s">'to'</span><span class="p">,</span> <span class="s">'go'</span><span class="p">,</span> <span class="s">'to'</span><span class="p">],</span>
+     <span class="p">[</span><span class="s">'go'</span><span class="p">,</span> <span class="s">'to'</span><span class="p">,</span> <span class="s">'school'</span><span class="p">]]</span>
+</code></pre></div></div>
+
+<p>In the above example, we have to store all the n-grams at the same time. If the text has m tokens, then the memory requirement is <code class="language-plaintext highlighter-rouge">O(nm)</code>, which can be problematic when m is large.</p>
+
+<p>Instead of using a list to store all n-grams, we can use a generator that generates the next n-gram when it’s asked for. This is known as lazy evaluation. We can make the function <code class="language-plaintext highlighter-rouge">ngrams</code> returns a generator using the keyword <code class="language-plaintext highlighter-rouge">yield</code>. Then the memory requirement is <code class="language-plaintext highlighter-rouge">O(m+n)</code>.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">ngrams</span><span class="p">(</span><span class="n">tokens</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+    <span class="n">length</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">tokens</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">length</span> <span class="o">-</span> <span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
+        <span class="k">yield</span> <span class="n">tokens</span><span class="p">[</span><span class="n">i</span><span class="p">:</span><span class="n">i</span><span class="o">+</span><span class="n">n</span><span class="p">]</span>
+
+<span class="n">ngrams_generator</span> <span class="o">=</span> <span class="n">ngrams</span><span class="p">(</span><span class="n">tokens</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">ngrams_generator</span><span class="p">)</span>
+
+<span class="o">==&gt;</span> <span class="o">&lt;</span><span class="n">generator</span> <span class="nb">object</span> <span class="n">ngrams</span> <span class="n">at</span> <span class="mh">0x1069b26d0</span><span class="o">&gt;</span>
+
+<span class="k">for</span> <span class="n">ngram</span> <span class="ow">in</span> <span class="n">ngrams_generator</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">ngram</span><span class="p">)</span>
+
+<span class="o">==&gt;</span> <span class="p">[</span><span class="s">'i'</span><span class="p">,</span> <span class="s">'want'</span><span class="p">,</span> <span class="s">'to'</span><span class="p">]</span>
+    <span class="p">[</span><span class="s">'want'</span><span class="p">,</span> <span class="s">'to'</span><span class="p">,</span> <span class="s">'go'</span><span class="p">]</span>
+    <span class="p">[</span><span class="s">'to'</span><span class="p">,</span> <span class="s">'go'</span><span class="p">,</span> <span class="s">'to'</span><span class="p">]</span>
+    <span class="p">[</span><span class="s">'go'</span><span class="p">,</span> <span class="s">'to'</span><span class="p">,</span> <span class="s">'school'</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>Another way to generate n-grams is to use slices to create lists: <code class="language-plaintext highlighter-rouge">[0, 1, ..., -n]</code>, <code class="language-plaintext highlighter-rouge">[1, 2, ..., -n+1]</code>, …, <code class="language-plaintext highlighter-rouge">[n-1, n, ..., -1]</code>, and then <code class="language-plaintext highlighter-rouge">zip</code> them together.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">ngrams</span><span class="p">(</span><span class="n">tokens</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+    <span class="n">length</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">tokens</span><span class="p">)</span>
+    <span class="n">slices</span> <span class="o">=</span> <span class="p">(</span><span class="n">tokens</span><span class="p">[</span><span class="n">i</span><span class="p">:</span><span class="n">length</span><span class="o">-</span><span class="n">n</span><span class="o">+</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">))</span>
+    <span class="k">return</span> <span class="nb">zip</span><span class="p">(</span><span class="o">*</span><span class="n">slices</span><span class="p">)</span>
+
+<span class="n">ngrams_generator</span> <span class="o">=</span> <span class="n">ngrams</span><span class="p">(</span><span class="n">tokens</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">ngrams_generator</span><span class="p">)</span>
+
+<span class="o">==&gt;</span> <span class="o">&lt;</span><span class="nb">zip</span> <span class="nb">object</span> <span class="n">at</span> <span class="mh">0x1069a7dc8</span><span class="o">&gt;</span> <span class="c1"># zip objects are generators
+</span>
+<span class="k">for</span> <span class="n">ngram</span> <span class="ow">in</span> <span class="n">ngrams_generator</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">ngram</span><span class="p">)</span>
+
+<span class="o">==&gt;</span> <span class="p">(</span><span class="s">'i'</span><span class="p">,</span> <span class="s">'want'</span><span class="p">,</span> <span class="s">'to'</span><span class="p">)</span>
+    <span class="p">(</span><span class="s">'want'</span><span class="p">,</span> <span class="s">'to'</span><span class="p">,</span> <span class="s">'go'</span><span class="p">)</span>
+    <span class="p">(</span><span class="s">'to'</span><span class="p">,</span> <span class="s">'go'</span><span class="p">,</span> <span class="s">'to'</span><span class="p">)</span>
+    <span class="p">(</span><span class="s">'go'</span><span class="p">,</span> <span class="s">'to'</span><span class="p">,</span> <span class="s">'school'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Note that to create slices, we use <code class="language-plaintext highlighter-rouge">(tokens[...] for i in range(n))</code> instead of <code class="language-plaintext highlighter-rouge">[tokens[...] for i in range(n)]</code>. <code class="language-plaintext highlighter-rouge">[]</code> is the normal list comprehension that returns a list. <code class="language-plaintext highlighter-rouge">()</code> returns a generator.</p>
+
+<h2 id="3-classes-and-magic-methods">3. Classes and magic methods</h2>
+<p>In Python, magic methods are prefixed and suffixed with the double underscore <code class="language-plaintext highlighter-rouge">__</code>, also known as dunder. The most wellknown magic method is probably <code class="language-plaintext highlighter-rouge">__init__</code>.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Node</span><span class="p">:</span>
+    <span class="s">""" A struct to denote the node of a binary tree.
+    It contains a value and pointers to left and right children.
+    """</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">,</span> <span class="n">left</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">right</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">value</span> <span class="o">=</span> <span class="n">value</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">left</span> <span class="o">=</span> <span class="n">left</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">right</span> <span class="o">=</span> <span class="n">right</span>
+</code></pre></div></div>
+
+<p>When we try to print out a Node object, however, it’s not very interpretable.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">root</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">root</span><span class="p">)</span> <span class="c1"># &lt;__main__.Node object at 0x1069c4518&gt;
+</span></code></pre></div></div>
+
+<p>Ideally, when user prints out a node, we want to print out the node’s value and the values of its children if it has children. To do so, we use the magic method <code class="language-plaintext highlighter-rouge">__repr__</code>, which must return a printable object, like string.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Node</span><span class="p">:</span>
+    <span class="s">""" A struct to denote the node of a binary tree.
+    It contains a value and pointers to left and right children.
+    """</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">,</span> <span class="n">left</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">right</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">value</span> <span class="o">=</span> <span class="n">value</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">left</span> <span class="o">=</span> <span class="n">left</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">right</span> <span class="o">=</span> <span class="n">right</span>
+
+    <span class="k">def</span> <span class="nf">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">strings</span> <span class="o">=</span> <span class="p">[</span><span class="sa">f</span><span class="s">'value: </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">value</span><span class="si">}</span><span class="s">'</span><span class="p">]</span>
+        <span class="n">strings</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="sa">f</span><span class="s">'left: </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">left</span><span class="p">.</span><span class="n">value</span><span class="si">}</span><span class="s">'</span> <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">left</span> <span class="k">else</span> <span class="s">'left: None'</span><span class="p">)</span>
+        <span class="n">strings</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="sa">f</span><span class="s">'right: </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">right</span><span class="p">.</span><span class="n">value</span><span class="si">}</span><span class="s">'</span> <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">right</span> <span class="k">else</span> <span class="s">'right: None'</span><span class="p">)</span>
+        <span class="k">return</span> <span class="s">', '</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">strings</span><span class="p">)</span>
+
+<span class="n">left</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+<span class="n">root</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="n">left</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">root</span><span class="p">)</span> <span class="c1"># value: 5, left: 4, right: None
+</span></code></pre></div></div>
+
+<p>We’d also like to compare two nodes by comparing their values. To do so, we overload the operator <code class="language-plaintext highlighter-rouge">==</code> with <code class="language-plaintext highlighter-rouge">__eq__</code>, <code class="language-plaintext highlighter-rouge">&lt;</code> with <code class="language-plaintext highlighter-rouge">__lt__</code>, and <code class="language-plaintext highlighter-rouge">&gt;=</code> with <code class="language-plaintext highlighter-rouge">__ge__</code>.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Node</span><span class="p">:</span>
+    <span class="s">""" A struct to denote the node of a binary tree.
+    It contains a value and pointers to left and right children.
+    """</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">,</span> <span class="n">left</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">right</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">value</span> <span class="o">=</span> <span class="n">value</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">left</span> <span class="o">=</span> <span class="n">left</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">right</span> <span class="o">=</span> <span class="n">right</span>
+
+    <span class="k">def</span> <span class="nf">__eq__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">value</span> <span class="o">==</span> <span class="n">other</span><span class="p">.</span><span class="n">value</span>
+
+    <span class="k">def</span> <span class="nf">__lt__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">value</span> <span class="o">&lt;</span> <span class="n">other</span><span class="p">.</span><span class="n">value</span>
+
+    <span class="k">def</span> <span class="nf">__ge__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">value</span> <span class="o">&gt;=</span> <span class="n">other</span><span class="p">.</span><span class="n">value</span>
+
+
+<span class="n">left</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+<span class="n">root</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="n">left</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">left</span> <span class="o">==</span> <span class="n">root</span><span class="p">)</span> <span class="c1"># False
+</span><span class="k">print</span><span class="p">(</span><span class="n">left</span> <span class="o">&lt;</span> <span class="n">root</span><span class="p">)</span> <span class="c1"># True
+</span><span class="k">print</span><span class="p">(</span><span class="n">left</span> <span class="o">&gt;=</span> <span class="n">root</span><span class="p">)</span> <span class="c1"># False
+</span></code></pre></div></div>
+
+<p>For a comprehensive list of supported magic methods <a href="https://www.tutorialsteacher.com/python/magic-methods-in-python">here</a> or see the official Python documentation <a href="https://docs.python.org/3/reference/datamodel.html#special-method-names">here</a> (slightly harder to read).</p>
+
+<p>Some of the methods that I highly recommend:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">__len__</code>: to overload the <code class="language-plaintext highlighter-rouge">len()</code> function.</li>
+  <li><code class="language-plaintext highlighter-rouge">__str__</code>: to overload the <code class="language-plaintext highlighter-rouge">str()</code> function.</li>
+  <li><code class="language-plaintext highlighter-rouge">__iter__</code>: if you want to your objects to be iterators. This also allows you to call <code class="language-plaintext highlighter-rouge">next()</code> on your object.</li>
+</ul>
+
+<p>For classes like Node where we know for sure all the attributes they can support (in the case of Node, they are <code class="language-plaintext highlighter-rouge">value</code>, <code class="language-plaintext highlighter-rouge">left</code>, and <code class="language-plaintext highlighter-rouge">right</code>), we might want to use <code class="language-plaintext highlighter-rouge">__slots__</code> to denote those values for both performance boost and memory saving. For a comprehensive understanding of pros and cons of <code class="language-plaintext highlighter-rouge">__slots__</code>, see this <a href="https://stackoverflow.com/a/28059785/5029595">absolutely amazing answer by Aaron Hall on StackOverflow</a>.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Node</span><span class="p">:</span>
+    <span class="s">""" A struct to denote the node of a binary tree.
+    It contains a value and pointers to left and right children.
+    """</span>
+    <span class="n">__slots__</span> <span class="o">=</span> <span class="p">(</span><span class="s">'value'</span><span class="p">,</span> <span class="s">'left'</span><span class="p">,</span> <span class="s">'right'</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">,</span> <span class="n">left</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">right</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">value</span> <span class="o">=</span> <span class="n">value</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">left</span> <span class="o">=</span> <span class="n">left</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">right</span> <span class="o">=</span> <span class="n">right</span>
+</code></pre></div></div>
+<h2 id="4-local-namespace-objects-attributes">4. local namespace, object’s attributes</h2>
+<p>The <code class="language-plaintext highlighter-rouge">locals()</code> function returns a dictionary containing the variables defined in the local namespace.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Model1</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">hidden_size</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">num_layers</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">learning_rate</span><span class="o">=</span><span class="mf">3e-4</span><span class="p">):</span>
+        <span class="k">print</span><span class="p">(</span><span class="nb">locals</span><span class="p">())</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">hidden_size</span> <span class="o">=</span> <span class="n">hidden_size</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">num_layers</span> <span class="o">=</span> <span class="n">num_layers</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">learning_rate</span> <span class="o">=</span> <span class="n">learning_rate</span>
+
+<span class="n">model1</span> <span class="o">=</span> <span class="n">Model1</span><span class="p">()</span>
+
+<span class="o">==&gt;</span> <span class="p">{</span><span class="s">'learning_rate'</span><span class="p">:</span> <span class="mf">0.0003</span><span class="p">,</span> <span class="s">'num_layers'</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span> <span class="s">'hidden_size'</span><span class="p">:</span> <span class="mi">100</span><span class="p">,</span> <span class="s">'self'</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">__main__</span><span class="p">.</span><span class="n">Model1</span> <span class="nb">object</span> <span class="n">at</span> <span class="mh">0x1069b1470</span><span class="o">&gt;</span><span class="p">}</span>
+</code></pre></div></div>
+
+<p>All attributes of an object are stored in its <code class="language-plaintext highlighter-rouge">__dict__</code>.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="n">model1</span><span class="p">.</span><span class="n">__dict__</span><span class="p">)</span>
+
+<span class="o">==&gt;</span> <span class="p">{</span><span class="s">'hidden_size'</span><span class="p">:</span> <span class="mi">100</span><span class="p">,</span> <span class="s">'num_layers'</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span> <span class="s">'learning_rate'</span><span class="p">:</span> <span class="mf">0.0003</span><span class="p">}</span>
+</code></pre></div></div>
+
+<p>Note that manually assigning each of the arguments to an attribute can be quite tiring when the list of the arguments is large. To avoid this, we can directly assign the list of arguments to the object’s <code class="language-plaintext highlighter-rouge">__dict__</code>.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Model2</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">hidden_size</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">num_layers</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">learning_rate</span><span class="o">=</span><span class="mf">3e-4</span><span class="p">):</span>
+        <span class="n">params</span> <span class="o">=</span> <span class="nb">locals</span><span class="p">()</span>
+        <span class="k">del</span> <span class="n">params</span><span class="p">[</span><span class="s">'self'</span><span class="p">]</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">__dict__</span> <span class="o">=</span> <span class="n">params</span>
+
+<span class="n">model2</span> <span class="o">=</span> <span class="n">Model2</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="n">model2</span><span class="p">.</span><span class="n">__dict__</span><span class="p">)</span>
+
+<span class="o">==&gt;</span> <span class="p">{</span><span class="s">'learning_rate'</span><span class="p">:</span> <span class="mf">0.0003</span><span class="p">,</span> <span class="s">'num_layers'</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span> <span class="s">'hidden_size'</span><span class="p">:</span> <span class="mi">100</span><span class="p">}</span>
+</code></pre></div></div>
+
+<p>This can be especially convenient when the object is initiated using the catch-all <code class="language-plaintext highlighter-rouge">**kwargs</code>, though the use of <code class="language-plaintext highlighter-rouge">**kwargs</code> should be reduced to the minimum.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Model3</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">__dict__</span> <span class="o">=</span> <span class="n">kwargs</span>
+
+<span class="n">model3</span> <span class="o">=</span> <span class="n">Model3</span><span class="p">(</span><span class="n">hidden_size</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">num_layers</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">learning_rate</span><span class="o">=</span><span class="mf">3e-4</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">model3</span><span class="p">.</span><span class="n">__dict__</span><span class="p">)</span>
+
+<span class="o">==&gt;</span> <span class="p">{</span><span class="s">'hidden_size'</span><span class="p">:</span> <span class="mi">100</span><span class="p">,</span> <span class="s">'num_layers'</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span> <span class="s">'learning_rate'</span><span class="p">:</span> <span class="mf">0.0003</span><span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="5-wild-import">5. Wild import</h2>
+<p>Often, you run into this wild import <code class="language-plaintext highlighter-rouge">*</code> that looks something like this:</p>
+
+<p><code class="language-plaintext highlighter-rouge">file.py</code></p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kn">from</span> <span class="nn">parts</span> <span class="kn">import</span> <span class="o">*</span>
+</code></pre></div></div>
+
+<p>This is irresponsible because it will import everything in module, even the imports of that module. For example, if <code class="language-plaintext highlighter-rouge">parts.py</code> looks like this:</p>
+
+<p><code class="language-plaintext highlighter-rouge">parts.py</code></p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">numpy</span>
+<span class="kn">import</span> <span class="nn">tensorflow</span>
+
+<span class="k">class</span> <span class="nc">Encoder</span><span class="p">:</span>
+    <span class="p">...</span>
+
+<span class="k">class</span> <span class="nc">Decoder</span><span class="p">:</span>
+    <span class="p">...</span>
+
+<span class="k">class</span> <span class="nc">Loss</span><span class="p">:</span>
+    <span class="p">...</span>
+
+<span class="k">def</span> <span class="nf">helper</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="p">...</span>
+
+<span class="k">def</span> <span class="nf">utils</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="p">...</span>
+</code></pre></div></div>
+
+<p>Since <code class="language-plaintext highlighter-rouge">parts.py</code> doesn’t have <code class="language-plaintext highlighter-rouge">__all__</code> specified, <code class="language-plaintext highlighter-rouge">file.py</code> will import Encoder, Decoder, Loss, utils, helper together with numpy and tensorflow.</p>
+
+<p>If we intend that only Encoder, Decoder, and Loss are ever to be imported and used in another module, we should specify that in <code class="language-plaintext highlighter-rouge">parts.py</code> using the <code class="language-plaintext highlighter-rouge">__all__</code> keyword.</p>
+
+<p><code class="language-plaintext highlighter-rouge">parts.py</code></p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span><span class="s">'Encoder'</span><span class="p">,</span> <span class="s">'Decoder'</span><span class="p">,</span> <span class="s">'Loss'</span><span class="p">]</span>
+<span class="kn">import</span> <span class="nn">numpy</span>
+<span class="kn">import</span> <span class="nn">tensorflow</span>
+
+<span class="k">class</span> <span class="nc">Encoder</span><span class="p">:</span>
+    <span class="p">...</span>
+</code></pre></div></div>
+<p>Now, if some user irresponsibly does a wild import with <code class="language-plaintext highlighter-rouge">parts</code>, they can only import Encoder, Decoder, Loss. Personally, I also find <code class="language-plaintext highlighter-rouge">__all__</code> helpful as it gives me an overview of the module.</p>
+
+<h2 id="6-decorator-to-time-your-functions">6. Decorator to time your functions</h2>
+<p>It’s often useful to know how long it takes a function to run, e.g. when you need to compare the performance of two algorithms that do the same thing. One naive way is to call <code class="language-plaintext highlighter-rouge">time.time()</code> at the begin and end of each function and print out the difference.</p>
+
+<p>For example: compare two algorithms to calculate the n-th Fibonacci number, one uses memoization and one doesn’t.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">fib_helper</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">n</span>
+    <span class="k">return</span> <span class="n">fib_helper</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">fib_helper</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">fib</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="s">""" fib is a wrapper function so that later we can change its behavior
+    at the top level without affecting the behavior at every recursion step.
+    """</span>
+    <span class="k">return</span> <span class="n">fib_helper</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">fib_m_helper</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">computed</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">computed</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">computed</span><span class="p">[</span><span class="n">n</span><span class="p">]</span>
+    <span class="n">computed</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">=</span> <span class="n">fib_m_helper</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="n">computed</span><span class="p">)</span> <span class="o">+</span> <span class="n">fib_m_helper</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">2</span><span class="p">,</span> <span class="n">computed</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">computed</span><span class="p">[</span><span class="n">n</span><span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">fib_m</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">fib_m_helper</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="p">{</span><span class="mi">0</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">:</span> <span class="mi">1</span><span class="p">})</span>
+</code></pre></div></div>
+
+<p>Let’s make sure that <code class="language-plaintext highlighter-rouge">fib</code> and <code class="language-plaintext highlighter-rouge">fib_m</code> are functionally equivalent.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">20</span><span class="p">):</span>
+    <span class="k">assert</span> <span class="n">fib</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="o">==</span> <span class="n">fib_m</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">time</span>
+
+<span class="n">start</span> <span class="o">=</span> <span class="n">time</span><span class="p">.</span><span class="n">time</span><span class="p">()</span>
+<span class="n">fib</span><span class="p">(</span><span class="mi">30</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'Without memoization, it takes </span><span class="si">{</span><span class="n">time</span><span class="p">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">start</span><span class="p">:</span><span class="mi">7</span><span class="n">f</span><span class="si">}</span><span class="s"> seconds.'</span><span class="p">)</span>
+
+<span class="o">==&gt;</span> <span class="n">Without</span> <span class="n">memoization</span><span class="p">,</span> <span class="n">it</span> <span class="n">takes</span> <span class="mf">0.267569</span> <span class="n">seconds</span><span class="p">.</span>
+
+<span class="n">start</span> <span class="o">=</span> <span class="n">time</span><span class="p">.</span><span class="n">time</span><span class="p">()</span>
+<span class="n">fib_m</span><span class="p">(</span><span class="mi">30</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'With memoization, it takes </span><span class="si">{</span><span class="n">time</span><span class="p">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">start</span><span class="p">:.</span><span class="mi">7</span><span class="n">f</span><span class="si">}</span><span class="s"> seconds.'</span><span class="p">)</span>
+
+<span class="o">==&gt;</span> <span class="n">With</span> <span class="n">memoization</span><span class="p">,</span> <span class="n">it</span> <span class="n">takes</span> <span class="mf">0.0000713</span> <span class="n">seconds</span><span class="p">.</span>
+</code></pre></div></div>
+
+<p>If you want to time multiple functions, it can be a drag having to write the same code over and over again. It’d be nice to have a way to specify how to change any function in the same way. In this case would be to call time.time() at the beginning and the end of each function, and print out the time difference.</p>
+
+<p>This is exactly what decorators do. They allow programmers to change the behavior of a function or class. Here’s an example to create a decorator <code class="language-plaintext highlighter-rouge">timeit</code>.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">timeit</span><span class="p">(</span><span class="n">fn</span><span class="p">):</span> 
+    <span class="c1"># *args and **kwargs are to support positional and named arguments of fn
+</span>    <span class="k">def</span> <span class="nf">get_time</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span> 
+        <span class="n">start</span> <span class="o">=</span> <span class="n">time</span><span class="p">.</span><span class="n">time</span><span class="p">()</span> 
+        <span class="n">output</span> <span class="o">=</span> <span class="n">fn</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Time taken in </span><span class="si">{</span><span class="n">fn</span><span class="p">.</span><span class="n">__name__</span><span class="si">}</span><span class="s">: </span><span class="si">{</span><span class="n">time</span><span class="p">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">start</span><span class="p">:.</span><span class="mi">7</span><span class="n">f</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">output</span>  <span class="c1"># make sure that the decorator returns the output of fn
+</span>    <span class="k">return</span> <span class="n">get_time</span> 
+</code></pre></div></div>
+
+<p>Add the decorator <code class="language-plaintext highlighter-rouge">@timeit</code> to your functions.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">@</span><span class="n">timeit</span>
+<span class="k">def</span> <span class="nf">fib</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">fib_helper</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+
+<span class="o">@</span><span class="n">timeit</span>
+<span class="k">def</span> <span class="nf">fib_m</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">fib_m_helper</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="p">{</span><span class="mi">0</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">:</span> <span class="mi">1</span><span class="p">})</span>
+
+<span class="n">fib</span><span class="p">(</span><span class="mi">30</span><span class="p">)</span>
+<span class="n">fib_m</span><span class="p">(</span><span class="mi">30</span><span class="p">)</span>
+
+<span class="o">==&gt;</span> <span class="n">Time</span> <span class="n">taken</span> <span class="ow">in</span> <span class="n">fib</span><span class="p">:</span> <span class="mf">0.2787242</span>
+<span class="o">==&gt;</span> <span class="n">Time</span> <span class="n">taken</span> <span class="ow">in</span> <span class="n">fib_m</span><span class="p">:</span> <span class="mf">0.0000138</span>
+</code></pre></div></div>
+
+<h2 id="7-caching-with-functoolslru_cache">7. Caching with @functools.lru_cache</h2>
+<p>Memoization is a form of cache: we cache the previously calculated Fibonacci numbers so that we don’t have to calculate them again.</p>
+
+<p>Caching is such an important technique that Python provides a built-in decorator to give your function the caching capacity. If you want <code class="language-plaintext highlighter-rouge">fib_helper</code> to reuse the previously calculated Fibonacci numbers, you can just add the decorator <code class="language-plaintext highlighter-rouge">lru_cache</code> from <code class="language-plaintext highlighter-rouge">functools</code>. <code class="language-plaintext highlighter-rouge">lru</code> stands for “least recently used”. For more information on cache, see <a href="https://docs.python.org/3/library/functools.html">here</a>.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">functools</span>
+
+<span class="o">@</span><span class="n">functools</span><span class="p">.</span><span class="n">lru_cache</span><span class="p">()</span>
+<span class="k">def</span> <span class="nf">fib_helper</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">n</span>
+    <span class="k">return</span> <span class="n">fib_helper</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">fib_helper</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span>
+
+<span class="o">@</span><span class="n">timeit</span>
+<span class="k">def</span> <span class="nf">fib</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="s">""" fib is a wrapper function so that later we can change its behavior
+    at the top level without affecting the behavior at every recursion step.
+    """</span>
+    <span class="k">return</span> <span class="n">fib_helper</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+
+<span class="n">fib</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">fib_m</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+
+<span class="o">==&gt;</span> <span class="n">Time</span> <span class="n">taken</span> <span class="ow">in</span> <span class="n">fib</span><span class="p">:</span> <span class="mf">0.0000412</span>
+<span class="o">==&gt;</span> <span class="n">Time</span> <span class="n">taken</span> <span class="ow">in</span> <span class="n">fib_m</span><span class="p">:</span> <span class="mf">0.0000281</span>
+</code></pre></div></div>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-03-14T04:10:57+07:00">March 14, 2021</time></p>
+
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/jekyll/update/2021/03/14/welcome-to-jekyll.html" class="pagination--pager" title="Welcome to Jekyll!
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Your awesome title. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
