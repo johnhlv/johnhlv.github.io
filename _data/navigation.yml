@@ -1,0 +1,30 @@
+# main links
+main:
+  - title: "About"
+    url: "/aboutme"
+  # - title: "English"
+  #   url: "/_posts/"
+
+docs:
+  - title: Getting Started
+    children:
+      - title: "Personal Pronouns, Possessive Pronouns, and Reflexive Pronouns"
+        url: /jekyll/update/2021/03/16/Chapter01.html
+      - title: "Countable and Uncountable Nouns, Quantifiers"
+        url: /jekyll/update/2021/03/16/Chapter02.html
+      - title: "Compound Nouns and Genitive and Possessive Case"
+        url: /jekyll/update/2021/03/16/Chapter03.html
+      - title: "Articles"
+        url: /jekyll/update/2021/03/16/Chapter04.html
+      - title: "Prepositions"
+        url: /jekyll/update/2021/03/16/Chapter05.html
+      - title: "Phrasal Verbs"
+        url: /jekyll/update/2021/03/16/Chapter06.html
+      - title: "Conjunctions"
+        url: /jekyll/update/2021/03/16/Chapter07.html
+      - title: "Subject - Verb Agreement"
+        url: /jekyll/update/2021/03/16/Chapter08.html
+      - title: "Tenses"
+        url: /jekyll/update/2021/03/16/Chapter09.html
+      - title: "Modal Verbs"
+        url: /jekyll/update/2021/03/16/Chapter10.html
