@@ -1,0 +1,1331 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-03-31T23:04:59+07:00</updated><id>/feed.xml</id><title type="html">Luong Van Huong</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>{&quot;avatar&quot;=&gt;&quot;/assets/img/baymax.jpg&quot;}</name></author><entry><title type="html">Chapter 11: Conditional Sentences</title><link href="/jekyll/update/2021/03/26/Chapter11.html" rel="alternate" type="text/html" title="Chapter 11: Conditional Sentences" /><published>2021-03-26T05:10:57+07:00</published><updated>2021-03-26T05:10:57+07:00</updated><id>/jekyll/update/2021/03/26/Chapter11</id><content type="html" xml:base="/jekyll/update/2021/03/26/Chapter11.html">&lt;h3 id=&quot;gồm-2-mệnh-đề&quot;&gt;Gồm 2 mệnh đề&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;IF CLAUSE: Mệnh đề chỉ điều kiện&lt;/li&gt;
+  &lt;li&gt;MAIN CLAUSE: Mệnh đề chính chỉ kết quả&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;có-3-loại&quot;&gt;Có 3 loại&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Điều kiện loại 1: Có thật trong hiện tại hoặc tương lai
+    &lt;ul&gt;
+      &lt;li&gt;Meaning: Có thể thực hiện trong hiện tại hoặc tương lai&lt;/li&gt;
+      &lt;li&gt;IF CLAUSE: Present tense&lt;/li&gt;
+      &lt;li&gt;MAIN CLAUSE: Will + bare-infinitive&lt;/li&gt;
+      &lt;li&gt;Dùng hiện tại đơn trong MAIN CLAUSE để diễn tả một sự thật hiển nhiên, một quy luật hoặc một thói quen&lt;/li&gt;
+      &lt;li&gt;Dùng hiện tại tiếp diễn trong IF CLAUSE để diễn đạt sự tiếp diễn của hành động&lt;/li&gt;
+      &lt;li&gt;Dùng hiện tại hoàn thành trong IF CLAUSE để diễn đạt sự hoàn tất của hành động&lt;/li&gt;
+      &lt;li&gt;Các động từ tình thái có thể dùng trong MAIN CLAUSE
+        &lt;ul&gt;
+          &lt;li&gt;Can, may, might, should, ought to, have to, must,…&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Điều kiện loại 2: Không có thật trong hiện tại
+    &lt;ul&gt;
+      &lt;li&gt;Meaning: Không có thật hoặc không thể xảy ra trong hiện tại hoặc tương lai&lt;/li&gt;
+      &lt;li&gt;IF CLAUSE: Past simple&lt;/li&gt;
+      &lt;li&gt;MAIN CLAUSE: Would/ Should/ Could/ Might + bare-infinitive&lt;/li&gt;
+      &lt;li&gt;Were thường được dùng thay cho Was(với I/he/she/it) trong cấu trúc này&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Điều kiện loại 3: Không có thật trong quá khứ
+    &lt;ul&gt;
+      &lt;li&gt;Meaning: Không thể xảy ra trong quá khứ&lt;/li&gt;
+      &lt;li&gt;IF CLAUSE: Past Perfect&lt;/li&gt;
+      &lt;li&gt;MAIN CLAUSE: Would/ Should/ Could/ Might + Have + Past-participle&lt;/li&gt;
+      &lt;li&gt;Có thể dùng kết hợp cả loại 2 và loại 3
+        &lt;ul&gt;
+          &lt;li&gt;Điều không có thật trong hiện tại và quá khứ&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Không dùng Will, Would trong IF CLAUSE&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Một số cách khác diễn tả điều kiện:
+    &lt;ul&gt;
+      &lt;li&gt;Unless = If…not = nếu…không&lt;/li&gt;
+      &lt;li&gt;Unless = Except if = trừ khi&lt;/li&gt;
+      &lt;li&gt;Without/ But for + noun = nếu không&lt;/li&gt;
+      &lt;li&gt;Should/ Were/ Had + Subject + Verb
+        &lt;ul&gt;
+          &lt;li&gt;Should you… = If you should…&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Were she… = If she were…&lt;/li&gt;
+      &lt;li&gt;Had I not… = If I hadn’t…&lt;/li&gt;
+      &lt;li&gt;Imagine (that) = giả sử như&lt;/li&gt;
+      &lt;li&gt;Suppose/ supposing (that) = giả sử như (chỉ dùng cho CĐK loại 2,3)&lt;/li&gt;
+      &lt;li&gt;Provided/ providing (that) = As long as = So long as = miễn là, chỉ cần (chỉ dùng cho CĐK loại 1)&lt;/li&gt;
+      &lt;li&gt;On condition (that) = miễn là, với điều kiện là&lt;/li&gt;
+      &lt;li&gt;Or/ otherwise = nếu không&lt;/li&gt;
+      &lt;li&gt;Only if = chỉ khi&lt;/li&gt;
+      &lt;li&gt;In case = nếu&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;wish--if-only&quot;&gt;WISH &amp;amp; IF only&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dùng để chỉ sự ao ước ở hiện tại, tương lai, quá khứ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;có-3-loại-mệnh-đề-sau-wish--if-only&quot;&gt;Có 3 loại mệnh đề sau WISH &amp;amp; If only&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Future wish
+    &lt;ul&gt;
+      &lt;li&gt;Mong điều gì đó sẽ xảy ra ở tương lai&lt;/li&gt;
+      &lt;li&gt;Công thức
+        &lt;ul&gt;
+          &lt;li&gt;S + Wish + S + would/ could + Verb-infinitive&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;If only  + S + would/ could + Verb-infinitive&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Present wish
+    &lt;ul&gt;
+      &lt;li&gt;Mong ước điều không thể xảy ra ở hiện tại&lt;/li&gt;
+      &lt;li&gt;Công thức
+        &lt;ul&gt;
+          &lt;li&gt;S + Wish + S + Verb-pass-simple&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;If only  + S + Verb-pass-simple&lt;/li&gt;
+      &lt;li&gt;Were có thể được dùng thay cho Was(với I/he/she/it) trong cấu trúc này, nhất là trong lối văn trịnh trọng&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Past wish
+    &lt;ul&gt;
+      &lt;li&gt;Mong ước điều gì đó đã hoặc đã không xảy ra trong quá khứ&lt;/li&gt;
+      &lt;li&gt;Công thức
+        &lt;ul&gt;
+          &lt;li&gt;S + Wish + S + Verb-pass-perfect&lt;/li&gt;
+          &lt;li&gt;If only  + S + Verb-pass-perfect&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;avatar&quot;=&gt;&quot;/assets/img/baymax.jpg&quot;}</name></author><category term="jekyll" /><category term="update" /><summary type="html">Gồm 2 mệnh đề</summary></entry><entry><title type="html">Chapter 12: Passive Form</title><link href="/jekyll/update/2021/03/26/Chapter12.html" rel="alternate" type="text/html" title="Chapter 12: Passive Form" /><published>2021-03-26T05:10:57+07:00</published><updated>2021-03-26T05:10:57+07:00</updated><id>/jekyll/update/2021/03/26/Chapter12</id><content type="html" xml:base="/jekyll/update/2021/03/26/Chapter12.html">&lt;p&gt;Câu bị động là câu trong đó chủ ngữ là người hay vật nhận hoặc chịu tác động của hành động&lt;/p&gt;
+
+&lt;h2 id=&quot;cách-đổi-sang-câu-bị-động&quot;&gt;Cách đổi sang câu bị động&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;./../assets/img/cau-bi-dong.jpg&quot; alt=&quot;caubidong&quot; /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Present simple&lt;/td&gt;
+      &lt;td&gt;am/ is/ are + past-participle&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Present continuous&lt;/td&gt;
+      &lt;td&gt;am/ is/ are + being + past-participle&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Past simple&lt;/td&gt;
+      &lt;td&gt;was/ were + past-participle&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Past continuous&lt;/td&gt;
+      &lt;td&gt;was/ were + being + past-participle&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Present perfect&lt;/td&gt;
+      &lt;td&gt;have/ has + been + past-participle&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Past perfect&lt;/td&gt;
+      &lt;td&gt;had + been + past-participle&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Future simple&lt;/td&gt;
+      &lt;td&gt;will + be + past-participle&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Future continuous&lt;/td&gt;
+      &lt;td&gt;will be + being + past-participle&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Future perfect&lt;/td&gt;
+      &lt;td&gt;will + have been + past-participle&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Be going to&lt;/td&gt;
+      &lt;td&gt;am/ is/ are going to + be + past-participle&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Modal verbs&lt;/td&gt;
+      &lt;td&gt;can/ should/ must,… + be + past-participle&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Present infinitive&lt;/td&gt;
+      &lt;td&gt;to be + past-participle&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Perfect infinitive&lt;/td&gt;
+      &lt;td&gt;to have been + past-participle&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Present participle&lt;/td&gt;
+      &lt;td&gt;being + past-participle&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Perfect participle&lt;/td&gt;
+      &lt;td&gt;having been + past-participle&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Chỉ có thể đổi sang câu bị động với những câu có ngoại động từ&lt;/li&gt;
+  &lt;li&gt;Động từ to be trong câu bị động phải thích hợp với thì của câu chủ động và phù hợp với chủ từ bị động&lt;/li&gt;
+  &lt;li&gt;Cách chủ từ thường được bỏ trong câu bị động: I, we, you, they, he, she, one, everyone, somebody, people.&lt;/li&gt;
+  &lt;li&gt;Trạng từ chỉ nơi chốn + BY + Trạng từ chỉ thời gian&lt;/li&gt;
+  &lt;li&gt;Trạng từ chỉ thể cách thường đứng giữa BE và quá khứ phân từ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;một-số-cấu-trúc-đặc-biệt&quot;&gt;Một số cấu trúc đặc biệt&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Động từ với hai tân ngữ
+    &lt;ul&gt;
+      &lt;li&gt;Cả 2 tân ngữ đều có thể làm chủ ngữ cho câu bị động nhưng tân ngữ chỉ người thường được sử dụng hơn&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Động từ chỉ giác quan
+    &lt;ul&gt;
+      &lt;li&gt;See, notice, hear, look, taste,…&lt;/li&gt;
+      &lt;li&gt;Active:
+        &lt;ul&gt;
+          &lt;li&gt;S + V + O + bare-infinitive / V-ing&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Passive:
+        &lt;ul&gt;
+          &lt;li&gt;S + Be + past-participle + to-infinitive / V-ing&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Động từ chỉ cảm xúc
+    &lt;ul&gt;
+      &lt;li&gt;Like, love, hate, wish, prefer, hope,…&lt;/li&gt;
+      &lt;li&gt;Active:
+        &lt;ul&gt;
+          &lt;li&gt;S + V + O + to-infinitive&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Passive:
+        &lt;ul&gt;
+          &lt;li&gt;S + V + O + to be + past-participle&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Động từ chỉ ý kiến
+    &lt;ul&gt;
+      &lt;li&gt;Active:
+        &lt;ul&gt;
+          &lt;li&gt;S + V(+ that) + clause(S2 + V2 + O2…)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Passive:
+        &lt;ul&gt;
+          &lt;li&gt;It + be + past-participle(+ that) + clause&lt;/li&gt;
+          &lt;li&gt;S2 + be + past-participle + to-infinitive / to have + past-participle&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Nếu hành động của mệnh đề that xảy ra trước hành động trong mệnh đề chính thì dùng Perfect infinitive(to have + past-participle)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Thể sai khiến
+    &lt;ul&gt;
+      &lt;li&gt;Active
+        &lt;ul&gt;
+          &lt;li&gt;S + have + O(person) + bare-infinitive + O(thing)&lt;/li&gt;
+          &lt;li&gt;S + get  + O(person) + to-infinitive   + O(thing)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Passive
+        &lt;ul&gt;
+          &lt;li&gt;S + have / get + O(thing) + past-participle&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;avatar&quot;=&gt;&quot;/assets/img/baymax.jpg&quot;}</name></author><category term="jekyll" /><category term="update" /><summary type="html">Câu bị động là câu trong đó chủ ngữ là người hay vật nhận hoặc chịu tác động của hành động</summary></entry><entry><title type="html">Chapter 13: Reporter Speech</title><link href="/jekyll/update/2021/03/26/Chapter13.html" rel="alternate" type="text/html" title="Chapter 13: Reporter Speech" /><published>2021-03-26T05:10:57+07:00</published><updated>2021-03-26T05:10:57+07:00</updated><id>/jekyll/update/2021/03/26/Chapter13</id><content type="html" xml:base="/jekyll/update/2021/03/26/Chapter13.html">&lt;ul&gt;
+  &lt;li&gt;Lời nói gián tiếp là lời tường thuật lại ý của người nói, đôi khi không cần phải dùng đúng những từ của người nói&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cách-đổi-từ-câu-trực-tiếp-sang-câu-gián-tiếp&quot;&gt;Cách đổi từ câu trực tiếp sang câu gián tiếp&lt;/h2&gt;
+
+&lt;h3 id=&quot;câu-trần-thuật&quot;&gt;Câu trần thuật&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dùng động từ giới thiệu say hoặc tell: say(that), say to somebody(that), tell somebody(that)&lt;/li&gt;
+  &lt;li&gt;Đổi các đại từ nhân xưng, đại từ hoặc tính từ sở hữu, đại từ phản thân sao cho tương ứng với chủ ngữ hoặc tân ngữ của mệnh đề chính&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Đổi thì của động từ thành thì quá khứ tương ứng&lt;/p&gt;
+
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th&gt; &lt;/th&gt;
+          &lt;th&gt; &lt;/th&gt;
+          &lt;th&gt; &lt;/th&gt;
+          &lt;th&gt; &lt;/th&gt;
+          &lt;th&gt; &lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Simple present&lt;/td&gt;
+          &lt;td&gt;Simple past&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Present continuous&lt;/td&gt;
+          &lt;td&gt;Past continuous&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Present perfect&lt;/td&gt;
+          &lt;td&gt;Past perfect&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Simple past&lt;/td&gt;
+          &lt;td&gt;Past perfect&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Past continuous&lt;/td&gt;
+          &lt;td&gt;Past perfect continuous&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Will/ Shall/ Can/ May&lt;/td&gt;
+          &lt;td&gt;Would/ Should/ Could/ Might&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Must/ Have to&lt;/td&gt;
+          &lt;td&gt;Had to&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Lưu ý: Không đổi thì của câu gián tiếp khi động từ giới thiệu ở thì hiện tại(present simple, present continuous, present perfect), câu dẫn trực tiếp là câu điều kiện không có thật hoặc câu trực tiếp diễn tả một chân lí, một sự thật hiển nhiên&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Đổi một số tính từ chỉ định, trạng từ hoặc trạng ngữ chỉ thời gian, nơi chốn&lt;/p&gt;
+
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th&gt; &lt;/th&gt;
+          &lt;th&gt; &lt;/th&gt;
+          &lt;th&gt; &lt;/th&gt;
+          &lt;th&gt; &lt;/th&gt;
+          &lt;th&gt; &lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;This/ There&lt;/td&gt;
+          &lt;td&gt;That/ Those&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Now&lt;/td&gt;
+          &lt;td&gt;Then&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Ago&lt;/td&gt;
+          &lt;td&gt;Before&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Today/ Tonight&lt;/td&gt;
+          &lt;td&gt;That day/ That night&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Tomorrow&lt;/td&gt;
+          &lt;td&gt;The next day, The fllowing day&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Yesterday&lt;/td&gt;
+          &lt;td&gt;The day before, The previous day&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Next week/ month&lt;/td&gt;
+          &lt;td&gt;The fllowing week/ month or The week/ month after&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Next week/ month&lt;/td&gt;
+          &lt;td&gt;The previous week/ month or The week/ month/ year before&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Here&lt;/td&gt;
+          &lt;td&gt;There&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;câu-hỏi&quot;&gt;Câu hỏi&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Yes - No Question
+    &lt;ul&gt;
+      &lt;li&gt;Dùng các động từ giới thiệu: Ask, inquire, wonder, want to know&lt;/li&gt;
+      &lt;li&gt;Dùng if hoặc whether sau động từ giới thiệu&lt;/li&gt;
+      &lt;li&gt;Đổi cấu trúc câu hỏi thành câu trần thuật&lt;/li&gt;
+      &lt;li&gt;Đổi thì của động từ, đại từ, tính từ, trạng từ tương tự cách đổi trong câu trần thuật&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Wh Question
+    &lt;ul&gt;
+      &lt;li&gt;Dùng các động từ giới thiệu: Ask, inquire, wonder, want to know&lt;/li&gt;
+      &lt;li&gt;Lặp lại từ để hỏi(what, where, when, why, etc.) sau động từ giới thiệu&lt;/li&gt;
+      &lt;li&gt;Đổi cấu trúc câu hỏi thành câu trần thuật&lt;/li&gt;
+      &lt;li&gt;Đổi thì của động từ, đại từ, tính từ, trạng từ tương tự cách đổi trong câu trần thuật&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;câu-mệnh-lệnh-câu-yêu-cầu-lời-đề-nghị-lời-khuyên-etc&quot;&gt;Câu mệnh lệnh, câu yêu cầu, lời đề nghị, lời khuyên, etc&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dùng động từ giới thiệu: Ask, tell, order, request, offer, advise, etc.&lt;/li&gt;
+  &lt;li&gt;Đặt tân ngữ chỉ người nhận lệnh(nếu có) sau động từ giới thiệu&lt;/li&gt;
+  &lt;li&gt;Dùng dạng nguyên mẫu có to(to-infinitive) của động từ trong câu trực tiếp&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;câu-cảm-thán&quot;&gt;Câu cảm thán&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Câu cảm thán thường được thuật lại bằng động từ exclaim, say that&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;câu-hỗn-hợp&quot;&gt;Câu hỗn hợp&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Khi đổi câu hỗn hợp sang câu gián tiếp ta đổi theo từng phần, dùng động từ giới thiệu riêng cho từng phần&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;avatar&quot;=&gt;&quot;/assets/img/baymax.jpg&quot;}</name></author><category term="jekyll" /><category term="update" /><summary type="html">Lời nói gián tiếp là lời tường thuật lại ý của người nói, đôi khi không cần phải dùng đúng những từ của người nói</summary></entry><entry><title type="html">Chapter 14: Gerunds and Infinitives</title><link href="/jekyll/update/2021/03/26/Chapter14.html" rel="alternate" type="text/html" title="Chapter 14: Gerunds and Infinitives" /><published>2021-03-26T05:10:57+07:00</published><updated>2021-03-26T05:10:57+07:00</updated><id>/jekyll/update/2021/03/26/Chapter14</id><content type="html" xml:base="/jekyll/update/2021/03/26/Chapter14.html">&lt;h2 id=&quot;danh-động-từ&quot;&gt;Danh động từ&lt;/h2&gt;
+
+&lt;p&gt;Danh động từ là hình thức động từ thêm -ing&lt;/p&gt;
+
+&lt;p&gt;Vai trò&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Chủ ngữ
+    &lt;ul&gt;
+      &lt;li&gt;Swimming is good for our health&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Tân ngữ
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Danh động từ làm tân ngữ trực tiếp sau các động từ bên dưới&lt;/p&gt;
+
+        &lt;table&gt;
+          &lt;thead&gt;
+            &lt;tr&gt;
+              &lt;th&gt; &lt;/th&gt;
+              &lt;th&gt; &lt;/th&gt;
+              &lt;th&gt; &lt;/th&gt;
+              &lt;th&gt; &lt;/th&gt;
+              &lt;th&gt; &lt;/th&gt;
+            &lt;/tr&gt;
+          &lt;/thead&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;td&gt;admit - thú nhận&lt;/td&gt;
+              &lt;td&gt;appreciate - cảm kích&lt;/td&gt;
+              &lt;td&gt;avoid - tránh&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;delay - hoãn lại&lt;/td&gt;
+              &lt;td&gt;deny - phủ nhận&lt;/td&gt;
+              &lt;td&gt;discuss - thảo luận&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;enjoy - thích&lt;/td&gt;
+              &lt;td&gt;imagine - tưởng tượng&lt;/td&gt;
+              &lt;td&gt;involve - có liên quan&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;keep - giữ, cứ&lt;/td&gt;
+              &lt;td&gt;mention - đề cập&lt;/td&gt;
+              &lt;td&gt;mind - phiền&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;miss - bỏ lỡ&lt;/td&gt;
+              &lt;td&gt;postpone - hoãn lại&lt;/td&gt;
+              &lt;td&gt;practice - thực hành&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;recall - nhớ lại&lt;/td&gt;
+              &lt;td&gt;recollect - nhớ lại&lt;/td&gt;
+              &lt;td&gt;report - báo cáo&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;resent - không hài lòng&lt;/td&gt;
+              &lt;td&gt;resist - phản đối&lt;/td&gt;
+              &lt;td&gt;risk - liều lĩnh&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;suggest - đề nghị&lt;/td&gt;
+              &lt;td&gt;tolerate - chịu đựng&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Danh động từ làm tân ngữ của giới từ
+        &lt;ul&gt;
+          &lt;li&gt;Adjective + preposition + Gerund&lt;/li&gt;
+          &lt;li&gt;Noun + preposition + Gerund&lt;/li&gt;
+          &lt;li&gt;Verb + preposition + Gerund&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Danh động từ dùng sau các cụm từ&lt;/p&gt;
+
+        &lt;table&gt;
+          &lt;thead&gt;
+            &lt;tr&gt;
+              &lt;th&gt; &lt;/th&gt;
+              &lt;th&gt; &lt;/th&gt;
+              &lt;th&gt; &lt;/th&gt;
+              &lt;th&gt; &lt;/th&gt;
+              &lt;th&gt; &lt;/th&gt;
+            &lt;/tr&gt;
+          &lt;/thead&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;td&gt;be busy&lt;/td&gt;
+              &lt;td&gt;can’t/ couldn’t help&lt;/td&gt;
+              &lt;td&gt;can’t stand/ bear/ face&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;feel like&lt;/td&gt;
+              &lt;td&gt;it’s no good/ use&lt;/td&gt;
+              &lt;td&gt;spend time&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;there’s no point in&lt;/td&gt;
+              &lt;td&gt;it’s (not) worth&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Bổ ngữ của chủ ngữ hoặc tân ngữ
+    &lt;ul&gt;
+      &lt;li&gt;Danh động từ làm bổ ngữ của chủ ngữ
+        &lt;ul&gt;
+          &lt;li&gt;My favourive sport is swimming&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Danh động từ làm bổ ngữ của tân ngữ, sau một số động từ sau&lt;/p&gt;
+
+        &lt;table&gt;
+          &lt;thead&gt;
+            &lt;tr&gt;
+              &lt;th&gt; &lt;/th&gt;
+              &lt;th&gt; &lt;/th&gt;
+              &lt;th&gt; &lt;/th&gt;
+              &lt;th&gt; &lt;/th&gt;
+              &lt;th&gt; &lt;/th&gt;
+            &lt;/tr&gt;
+          &lt;/thead&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;td&gt;call&lt;/td&gt;
+              &lt;td&gt;catch&lt;/td&gt;
+              &lt;td&gt;discover&lt;/td&gt;
+              &lt;td&gt;feel&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;find&lt;/td&gt;
+              &lt;td&gt;hear&lt;/td&gt;
+              &lt;td&gt;get&lt;/td&gt;
+              &lt;td&gt;imagine&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;keep&lt;/td&gt;
+              &lt;td&gt;leave&lt;/td&gt;
+              &lt;td&gt;notice&lt;/td&gt;
+              &lt;td&gt;see&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;send&lt;/td&gt;
+              &lt;td&gt;set&lt;/td&gt;
+              &lt;td&gt;stop&lt;/td&gt;
+              &lt;td&gt;watch&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;động-từ-nguyên-mẫu-có-to&quot;&gt;Động từ nguyên mẫu có TO&lt;/h2&gt;
+
+&lt;p&gt;Vai trò&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Chủ ngữ
+    &lt;ul&gt;
+      &lt;li&gt;To swim is good for our health&lt;/li&gt;
+      &lt;li&gt;Cấu trúc chủ ngữ giả it hay được dùng hơn&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Tân ngữ
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;TO-Infinitive làm tân ngữ trực tiếp sau các động từ&lt;/p&gt;
+
+        &lt;table&gt;
+          &lt;thead&gt;
+            &lt;tr&gt;
+              &lt;th&gt; &lt;/th&gt;
+              &lt;th&gt; &lt;/th&gt;
+              &lt;th&gt; &lt;/th&gt;
+              &lt;th&gt; &lt;/th&gt;
+              &lt;th&gt; &lt;/th&gt;
+            &lt;/tr&gt;
+          &lt;/thead&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;td&gt;afford - có đủ khả năng&lt;/td&gt;
+              &lt;td&gt;agree - đồng ý&lt;/td&gt;
+              &lt;td&gt;arrange - sắp xếp&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;appear - hóa ra là&lt;/td&gt;
+              &lt;td&gt;ask - yêu cầu&lt;/td&gt;
+              &lt;td&gt;attempt - nỗ lực&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;care - quan tâm&lt;/td&gt;
+              &lt;td&gt;choose - chọn&lt;/td&gt;
+              &lt;td&gt;claim - thừa nhận&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;decide - quyết định&lt;/td&gt;
+              &lt;td&gt;demand - yêu cầu&lt;/td&gt;
+              &lt;td&gt;deserve - xứng đáng&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;expect - mong muốn&lt;/td&gt;
+              &lt;td&gt;fail - thất bại&lt;/td&gt;
+              &lt;td&gt;happen - tình cờ&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;hesitate - ngập ngừng&lt;/td&gt;
+              &lt;td&gt;hope - hi vọng&lt;/td&gt;
+              &lt;td&gt;intend - dự định&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;learn - học&lt;/td&gt;
+              &lt;td&gt;manage - xoay xở&lt;/td&gt;
+              &lt;td&gt;neglect - xao lãng&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;offer - cho&lt;/td&gt;
+              &lt;td&gt;plan - có kế hoạch&lt;/td&gt;
+              &lt;td&gt;prepare - chuẩn bị&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;pretend - giả vờ&lt;/td&gt;
+              &lt;td&gt;promise - hứa&lt;/td&gt;
+              &lt;td&gt;propose - đề nghị&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;refuse - từ chối&lt;/td&gt;
+              &lt;td&gt;seem - hình như&lt;/td&gt;
+              &lt;td&gt;swear - thề&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;tend - có khuynh hướng&lt;/td&gt;
+              &lt;td&gt;threaten - dọa&lt;/td&gt;
+              &lt;td&gt;wow - thề&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;wait - chờ&lt;/td&gt;
+              &lt;td&gt;want - muốn&lt;/td&gt;
+              &lt;td&gt;wish - ước mơ&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;would like - muốn, thích&lt;/td&gt;
+              &lt;td&gt;yearn - khát khao&lt;/td&gt;
+              &lt;td&gt;urge - thúc giục&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+      &lt;/li&gt;
+      &lt;li&gt;TO-Infinitive còn dùng sau các cụm từ
+        &lt;ul&gt;
+          &lt;li&gt;to make up one’s mind, to take care, to make sure, to take the trouble, etc&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;TO-Infinitive thường được dùng sau các tính từ diễn tả cảm xúc, phản ứng và một số các tính từ thông dụng khác&lt;/li&gt;
+      &lt;li&gt;TO-Infinitive dùng sau các nghi vấn từ trong lời nói gián tiếp(ngoại trừ Why)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Bổ ngữ của chủ ngữ hoặc tân ngữ
+    &lt;ul&gt;
+      &lt;li&gt;TO-Infinitive làm bổ ngữ cho chủ ngữ
+        &lt;ul&gt;
+          &lt;li&gt;What you have to do is to work harder&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;TO-Infinitive làm bổ ngữ của tân ngữ, sau động từ + tân ngữ như dưới&lt;/p&gt;
+
+        &lt;table&gt;
+          &lt;thead&gt;
+            &lt;tr&gt;
+              &lt;th&gt; &lt;/th&gt;
+              &lt;th&gt; &lt;/th&gt;
+              &lt;th&gt; &lt;/th&gt;
+              &lt;th&gt; &lt;/th&gt;
+              &lt;th&gt; &lt;/th&gt;
+            &lt;/tr&gt;
+          &lt;/thead&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;td&gt;advise&lt;/td&gt;
+              &lt;td&gt;allow&lt;/td&gt;
+              &lt;td&gt;ask&lt;/td&gt;
+              &lt;td&gt;assume&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;beg&lt;/td&gt;
+              &lt;td&gt;believe&lt;/td&gt;
+              &lt;td&gt;cause&lt;/td&gt;
+              &lt;td&gt;challenge&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;command&lt;/td&gt;
+              &lt;td&gt;compel&lt;/td&gt;
+              &lt;td&gt;consider&lt;/td&gt;
+              &lt;td&gt;enable&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;encourage&lt;/td&gt;
+              &lt;td&gt;expect&lt;/td&gt;
+              &lt;td&gt;find&lt;/td&gt;
+              &lt;td&gt;forbid&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;force&lt;/td&gt;
+              &lt;td&gt;get&lt;/td&gt;
+              &lt;td&gt;guess&lt;/td&gt;
+              &lt;td&gt;hate&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;help&lt;/td&gt;
+              &lt;td&gt;imagine&lt;/td&gt;
+              &lt;td&gt;intend&lt;/td&gt;
+              &lt;td&gt;instruct&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;invite&lt;/td&gt;
+              &lt;td&gt;know&lt;/td&gt;
+              &lt;td&gt;lead&lt;/td&gt;
+              &lt;td&gt;like&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;leave&lt;/td&gt;
+              &lt;td&gt;love&lt;/td&gt;
+              &lt;td&gt;mean&lt;/td&gt;
+              &lt;td&gt;need&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;observe&lt;/td&gt;
+              &lt;td&gt;order&lt;/td&gt;
+              &lt;td&gt;permit&lt;/td&gt;
+              &lt;td&gt;prefer&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;persuade&lt;/td&gt;
+              &lt;td&gt;remind&lt;/td&gt;
+              &lt;td&gt;request&lt;/td&gt;
+              &lt;td&gt;suspect&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;teach&lt;/td&gt;
+              &lt;td&gt;tell&lt;/td&gt;
+              &lt;td&gt;tempt&lt;/td&gt;
+              &lt;td&gt;think&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;trust&lt;/td&gt;
+              &lt;td&gt;urge&lt;/td&gt;
+              &lt;td&gt;understand&lt;/td&gt;
+              &lt;td&gt;want&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;warn&lt;/td&gt;
+              &lt;td&gt;wish&lt;/td&gt;
+              &lt;td&gt;etc.&lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+              &lt;td&gt; &lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;động-từ-nguyên-mẫu-không-to&quot;&gt;Động từ nguyên mẫu không TO&lt;/h2&gt;
+
+&lt;p&gt;Vai trò&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sau các trợ động từ tình thái
+    &lt;ul&gt;
+      &lt;li&gt;We must go now&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Sau các động từ
+    &lt;ul&gt;
+      &lt;li&gt;let, make, help, see, hear, feel, watch, notice + Tân ngữ&lt;/li&gt;
+      &lt;li&gt;Sau Help + Tân ngữ có thể là một động từ nguyên mẫu có TO hoặc không có To&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Sau các cụm động từ: had better, would rather, had sooner và sau why hoặc why not&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;danh-động-từ-động-từ-nguyên-mẫu-có-to-hoặc-không-to&quot;&gt;Danh động từ, động từ nguyên mẫu có TO hoặc không TO&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;see, hear, feel, etc + O + Bare-infinitive
+    &lt;ul&gt;
+      &lt;li&gt;Chỉ sự hoàn tất của hành động&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;see, hear, feel, etc + O + V-ing
+    &lt;ul&gt;
+      &lt;li&gt;Chỉ sự tiếp diễn của hành động&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;advise, recommend, allow, permit, encourage, require + O + TO-Infinitive&lt;/li&gt;
+  &lt;li&gt;advise, recommend, allow, permit, encourage, require + V-ing&lt;/li&gt;
+  &lt;li&gt;forget/ remember + TO-Infinitive
+    &lt;ul&gt;
+      &lt;li&gt;Chỉ hành động ở tương lai&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;forget/ remember + V-ing
+    &lt;ul&gt;
+      &lt;li&gt;Chỉ hành động đã qua&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;stop + TO-Infinitive
+    &lt;ul&gt;
+      &lt;li&gt;Ngừng việc này để làm việc khác&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;stop + V-ing
+    &lt;ul&gt;
+      &lt;li&gt;Thôi không làm nữa&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;try + TO-Infinitive
+    &lt;ul&gt;
+      &lt;li&gt;Cố gắng, chỉ sự nỗ lựng&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;try + V-ing
+    &lt;ul&gt;
+      &lt;li&gt;Thử, chỉ sự thử nghiệm&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;mean + TO-Infinitive
+    &lt;ul&gt;
+      &lt;li&gt;Chỉ dự định hoặc ý định&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;mean + V-ing
+    &lt;ul&gt;
+      &lt;li&gt;Chỉ sự liên quan hoặc kết quả&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;need + TO-Infinitive
+    &lt;ul&gt;
+      &lt;li&gt;Nghĩa chủ động&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;need + V-ing
+    &lt;ul&gt;
+      &lt;li&gt;Nghĩa bị động&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;go on + TO-Infinitive
+    &lt;ul&gt;
+      &lt;li&gt;Chỉ sự thay đổi của hành động&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;go on + V-ing
+    &lt;ul&gt;
+      &lt;li&gt;Chỉ sự liên tục của hành động&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;begin, start, like, love, hate, continue, cannot/ could not bear
+    &lt;ul&gt;
+      &lt;li&gt;Có thể theo sau bởi động từ nguyên mẫu hoặc danh động từ, không có sự khác biệt về nghĩa&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;avatar&quot;=&gt;&quot;/assets/img/baymax.jpg&quot;}</name></author><category term="jekyll" /><category term="update" /><summary type="html">Danh động từ</summary></entry><entry><title type="html">Chapter 15: Comparison of Adjectives and Advebs</title><link href="/jekyll/update/2021/03/26/Chapter15.html" rel="alternate" type="text/html" title="Chapter 15: Comparison of Adjectives and Advebs" /><published>2021-03-26T05:10:57+07:00</published><updated>2021-03-26T05:10:57+07:00</updated><id>/jekyll/update/2021/03/26/Chapter15</id><content type="html" xml:base="/jekyll/update/2021/03/26/Chapter15.html">&lt;h2 id=&quot;so-sánh-bằng&quot;&gt;So sánh bằng&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;AS + adjective/ adverb + AS&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Not AS/ SO + adjective/ adverb + AS&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;As much/ many(+noun) As
+    &lt;ul&gt;
+      &lt;li&gt;Được dùng để nói về số lượng&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The same(+noun) As
+    &lt;ul&gt;
+      &lt;li&gt;Jenie’s salary is the same as mine&lt;/li&gt;
+      &lt;li&gt;Jenie gets the same salary as me&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;so-sánh-hơn&quot;&gt;So sánh hơn&lt;/h2&gt;
+
+&lt;p&gt;So sánh nhiều hơn&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Thêm -er vào sau tính từ/ trạng từ có một âm tiết(short adjective/ adverb) và tính từ có hai âm tiết tận cùng bằng
+    &lt;ul&gt;
+      &lt;li&gt;y, et, le, er, ow&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Thêm more vào trước tính từ/ trạng từ có hai âm tiết trở lên(long adjective/ adverb) ngoại trừ các tính từ tận cùng bằng
+    &lt;ul&gt;
+      &lt;li&gt;y, et, le, er, ow(trường hợp này thêm -er như dòng trên)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Short adjective/ adverb + ER + Than&lt;/li&gt;
+  &lt;li&gt;MORE + long adjective/ adverb + Than&lt;/li&gt;
+  &lt;li&gt;Với danh từ
+    &lt;ul&gt;
+      &lt;li&gt;MORE + Noun + Than&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So sánh ít hơn&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;LESS + adjective + than&lt;/li&gt;
+  &lt;li&gt;Với danh từ
+    &lt;ul&gt;
+      &lt;li&gt;LESS + Noun + Than&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;so-sánh-nhất&quot;&gt;So sánh nhất&lt;/h2&gt;
+
+&lt;p&gt;So sánh nhiều nhất&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Thêm -est vào sau tính từ/ trạng từ có một âm tiết(short adjective/ adverb) và tính từ có hai âm tiết tận cùng bằng
+    &lt;ul&gt;
+      &lt;li&gt;y, et, le, er, ow&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Thêm most vào trước tính từ/ trạng từ có hai âm tiết trở lên(long adjective/ adverb) ngoại trừ các tính từ tận cùng bằng
+    &lt;ul&gt;
+      &lt;li&gt;y, et, le, er, ow(trường hợp này thêm -est như dòng trên)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The + short adjective/ adverb + EST&lt;/li&gt;
+  &lt;li&gt;The + MOST + long adjective/ adverb&lt;/li&gt;
+  &lt;li&gt;So sánh nhất thường dùng khi so sánh từ ba đối tượng trở lên, nếu chỉ có 2 đối tượng thì thường dùng so sánh hơn&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So sánh ít nhất&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The least + adjective&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;lưu-ý&quot;&gt;Lưu ý&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Much, far, a lot được dùng để nhấn mạnh so sánh hơn&lt;/li&gt;
+  &lt;li&gt;Tính từ ngắn đứng trước tính từ dài trong hình thức so sánh&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Hình thức so sánh bất quy tắc từ trái sang như bên dưới&lt;/p&gt;
+
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th&gt; &lt;/th&gt;
+          &lt;th&gt; &lt;/th&gt;
+          &lt;th&gt; &lt;/th&gt;
+          &lt;th&gt; &lt;/th&gt;
+          &lt;th&gt; &lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;good/ well&lt;/td&gt;
+          &lt;td&gt;better&lt;/td&gt;
+          &lt;td&gt;the best&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;bad/ badly&lt;/td&gt;
+          &lt;td&gt;worse&lt;/td&gt;
+          &lt;td&gt;the worst&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;many/ much&lt;/td&gt;
+          &lt;td&gt;more&lt;/td&gt;
+          &lt;td&gt;the most&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;little&lt;/td&gt;
+          &lt;td&gt;less&lt;/td&gt;
+          &lt;td&gt;the least&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;far&lt;/td&gt;
+          &lt;td&gt;farther/ further&lt;/td&gt;
+          &lt;td&gt;the farthest/ the furthest&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;so-sánh-kép&quot;&gt;So sánh kép&lt;/h2&gt;
+
+&lt;p&gt;So sánh lũy tiến&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Meaning: Càng ngày càng
+    &lt;ul&gt;
+      &lt;li&gt;Short adj/ adv + ER + and + Short adj/ adv + ER&lt;/li&gt;
+      &lt;li&gt;MORE/ LESS and MORE/ LESS + Long adj/ adv&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So sánh đồng tiến&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Meaning: Càng … càng
+    &lt;ul&gt;
+      &lt;li&gt;The + Comparative adj/ adv + The + Comparative adj/ adv&lt;/li&gt;
+      &lt;li&gt;Lưu ý MORE, LESS đều dùng được trong cấu trúc này&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;avatar&quot;=&gt;&quot;/assets/img/baymax.jpg&quot;}</name></author><category term="jekyll" /><category term="update" /><summary type="html">So sánh bằng</summary></entry><entry><title type="html">Chapter 16: Relative Clauses</title><link href="/jekyll/update/2021/03/26/Chapter16.html" rel="alternate" type="text/html" title="Chapter 16: Relative Clauses" /><published>2021-03-26T05:10:57+07:00</published><updated>2021-03-26T05:10:57+07:00</updated><id>/jekyll/update/2021/03/26/Chapter16</id><content type="html" xml:base="/jekyll/update/2021/03/26/Chapter16.html">&lt;p&gt;Mệnh đề quan hệ - Relative Clause hay còn gọi là mệnh đề tính ngữ - Adjective Clause, được dùng như một tính từ để bổ nghĩa cho danh từ đứng trước&lt;/p&gt;
+
+&lt;p&gt;Mệnh đê quan hệ được đặt ngay sau danh từ mà nó bổ nghĩa và được bắt đầu bằng các đại từ quan hệ Relative Pronouns hoặc các trạng từ quan hệ Relative Adverbs&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Relative Pronouns: Who, whom, which, that, whose&lt;/li&gt;
+  &lt;li&gt;Relative Adverbs: When, where, why&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cách-dùng-đại-từ-và-trạng-từ-quan-hệ-relative-adverbs-and-relative-pronouns&quot;&gt;Cách dùng đại từ và trạng từ quan hệ (Relative Adverbs and Relative Pronouns)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;WHO
+    &lt;ul&gt;
+      &lt;li&gt;Làm chủ ngữ hoặc tân ngữ, thay thế cho danh từ chỉ người&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;WHOM
+    &lt;ul&gt;
+      &lt;li&gt;Làm tân ngữ, thay thế cho danh từ chỉ người&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;WHICH
+    &lt;ul&gt;
+      &lt;li&gt;Làm chủ ngữ hoặc tân ngữ, thay thế cho danh từ chỉ vật&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;THAT
+    &lt;ul&gt;
+      &lt;li&gt;Làm chủ ngữ hoặc tân ngữ, thay thế cho cả danh từ chỉ người và danh từ chỉ vật&lt;/li&gt;
+      &lt;li&gt;That luôn được dùng sau
+        &lt;ul&gt;
+          &lt;li&gt;Cụm danh từ chỉ cả người lẫn vật&lt;/li&gt;
+          &lt;li&gt;Sau các đại từ: Everything, something, anything, all, little, much, none&lt;/li&gt;
+          &lt;li&gt;Sau dạng so sánh nhất&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;WHOSE
+    &lt;ul&gt;
+      &lt;li&gt;Chỉ sự sở hữu&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;WHEN
+    &lt;ul&gt;
+      &lt;li&gt;Thay cho danh từ chỉ thời gian&lt;/li&gt;
+      &lt;li&gt;Bằng với on/ at/ in Which&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;WHERE
+    &lt;ul&gt;
+      &lt;li&gt;Thay cho danh từ chỉ nơi chốn&lt;/li&gt;
+      &lt;li&gt;Bằng với at/ in/ from/ on Which&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;WHY
+    &lt;ul&gt;
+      &lt;li&gt;Dùng để chỉ lý do, thay cho the reason&lt;/li&gt;
+      &lt;li&gt;Bằng với For which&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;phân-loại-mệnh-đề-quan-hệ&quot;&gt;Phân loại mệnh đề quan hệ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mệnh đề quan hệ giới hạn
+    &lt;ul&gt;
+      &lt;li&gt;Cung cấp những thông tin quan trọng cần thiết để xác định danh từ hoặc cụm danh từ đứng trước&lt;/li&gt;
+      &lt;li&gt;Đại từ quan hệ làm tân ngữ WHO(m), WHICH, THAT và trạng từ quan hệ WHEN, WHY có thể được bỏ trong mệnh đề quan hệ giới hạn&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Mệnh đề quan hệ không giới hạn
+    &lt;ul&gt;
+      &lt;li&gt;Cung cấp thêm thông tin về một người, một vật hoặc một sự việc đã được xác định&lt;/li&gt;
+      &lt;li&gt;Mệnh đê quan hệ KGH cách mệnh đề chính bằng dấu phẩy(,) hoặc dấu gạch ngang(-)&lt;/li&gt;
+      &lt;li&gt;Không được bỏ các đại từ quan hệ làm tân ngữ và trạng từ quan hệ trong mệnh đề quan hệ KGH&lt;/li&gt;
+      &lt;li&gt;Không dùng THAT trong mệnh đề quan hệ KGH&lt;/li&gt;
+      &lt;li&gt;Trong mệnh đề quan hệ KGH thì WHICH có thể được dùng để bổ nghĩa cho cả câu&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;giới-từ-trong-mệnh-đề-quan-hệ&quot;&gt;Giới từ trong mệnh đề quan hệ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Giới từ có thể đứng trước đại từ quan hệ làm tân ngữ của giới từ(WHOM, WHICH, WHOSE) hoặc sau động từ(ngoại trừ Without)&lt;/li&gt;
+  &lt;li&gt;Giới từ không được đặt trước WHO, THAT&lt;/li&gt;
+  &lt;li&gt;Khi giới từ là thành phần của cụm động từ thì không thể đem giới từ ra đứng trước WHOM, WHICH, WHOSE&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;dạng-rút-gọn-của-mệnh-đề-quan-hệ&quot;&gt;Dạng rút gọn của mệnh đề quan hệ&lt;/h2&gt;
+
+&lt;p&gt;Mệnh đề quan hệ có thể được rút gọn bằng cách dùng&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ngữ phân từ - Participle phrase
+    &lt;ul&gt;
+      &lt;li&gt;Ngữ hiện tại phân từ - present participle phrase được dùng khi động từ trong mệnh đề quan hệ ở thể chủ động - active, diễn đạt hành động đang diễn ra hoặc có tính thường xuyên, lâu dài&lt;/li&gt;
+      &lt;li&gt;Ngữ quá khứ phân từ - past participle phrase được dùng khi động từ trong mệnh đề quan hệ ở thể bị động passive&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Cụm động từ nguyên mẫu - To-infinitive phrase
+    &lt;ul&gt;
+      &lt;li&gt;To-infinitive có thể được dùng khi đại từ quan hệ làm chủ ngữ đứng sau fist, second, etc, last, next, only, dạng so sánh nhất hoặc để chỉ mục đích, sự cho phép&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Ngữ danh từ - Noun phrase
+    &lt;ul&gt;
+      &lt;li&gt;Ms Coco, who is the school librarian, often lends me reference books&lt;/li&gt;
+      &lt;li&gt;Ms Coco, the school librarian, often lends me reference books&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;avatar&quot;=&gt;&quot;/assets/img/baymax.jpg&quot;}</name></author><category term="jekyll" /><category term="update" /><summary type="html">Mệnh đề quan hệ - Relative Clause hay còn gọi là mệnh đề tính ngữ - Adjective Clause, được dùng như một tính từ để bổ nghĩa cho danh từ đứng trước</summary></entry><entry><title type="html">Chapter 17: Adverb Clausses</title><link href="/jekyll/update/2021/03/26/Chapter17.html" rel="alternate" type="text/html" title="Chapter 17: Adverb Clausses" /><published>2021-03-26T05:10:57+07:00</published><updated>2021-03-26T05:10:57+07:00</updated><id>/jekyll/update/2021/03/26/Chapter17</id><content type="html" xml:base="/jekyll/update/2021/03/26/Chapter17.html">&lt;p&gt;johnhlv&lt;/p&gt;</content><author><name>{&quot;avatar&quot;=&gt;&quot;/assets/img/baymax.jpg&quot;}</name></author><category term="jekyll" /><category term="update" /><summary type="html">johnhlv</summary></entry><entry><title type="html">Chapter 18: Noun Clausses</title><link href="/jekyll/update/2021/03/26/Chapter18.html" rel="alternate" type="text/html" title="Chapter 18: Noun Clausses" /><published>2021-03-26T05:10:57+07:00</published><updated>2021-03-26T05:10:57+07:00</updated><id>/jekyll/update/2021/03/26/Chapter18</id><content type="html" xml:base="/jekyll/update/2021/03/26/Chapter18.html">&lt;p&gt;johnhlv&lt;/p&gt;</content><author><name>{&quot;avatar&quot;=&gt;&quot;/assets/img/baymax.jpg&quot;}</name></author><category term="jekyll" /><category term="update" /><summary type="html">johnhlv</summary></entry><entry><title type="html">Chapter 19: Word Formation and Word Order</title><link href="/jekyll/update/2021/03/26/Chapter19.html" rel="alternate" type="text/html" title="Chapter 19: Word Formation and Word Order" /><published>2021-03-26T05:10:57+07:00</published><updated>2021-03-26T05:10:57+07:00</updated><id>/jekyll/update/2021/03/26/Chapter19</id><content type="html" xml:base="/jekyll/update/2021/03/26/Chapter19.html">&lt;p&gt;johnhlv&lt;/p&gt;</content><author><name>{&quot;avatar&quot;=&gt;&quot;/assets/img/baymax.jpg&quot;}</name></author><category term="jekyll" /><category term="update" /><summary type="html">johnhlv</summary></entry><entry><title type="html">Chapter 20: Questions</title><link href="/jekyll/update/2021/03/26/Chapter20.html" rel="alternate" type="text/html" title="Chapter 20: Questions" /><published>2021-03-26T05:10:57+07:00</published><updated>2021-03-26T05:10:57+07:00</updated><id>/jekyll/update/2021/03/26/Chapter20</id><content type="html" xml:base="/jekyll/update/2021/03/26/Chapter20.html">&lt;p&gt;johnhlv&lt;/p&gt;</content><author><name>{&quot;avatar&quot;=&gt;&quot;/assets/img/baymax.jpg&quot;}</name></author><category term="jekyll" /><category term="update" /><summary type="html">johnhlv</summary></entry></feed>
