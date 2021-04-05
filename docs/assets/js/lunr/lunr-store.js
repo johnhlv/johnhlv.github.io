@@ -132,7 +132,7 @@ var store = [{
         "teaser": null
       },{
         "title": "English grammar from scratch!",
-        "excerpt":"From Chapter 01 to Chapter 22 Chapter 01 Đại từ nhân xưng Person   Singular     Plural     Chủ ngữ Tân ngữ Nghĩa Chủ ngữ Tân ngữ Nghĩa 1st I me tôi We us chúng tôi 2nd You you bạn You you các bạn 3rd He She It...","categories": ["jekyll","update"],
+        "excerpt":"From Chapter 01 to Chapter 22 Chapter 01 Đại từ nhân xưng, đại từ sở hữu và đại từ phản thân Đại từ nhân xưng Person   Singular     Plural     Chủ ngữ Tân ngữ Nghĩa Chủ ngữ Tân ngữ Nghĩa 1st I me tôi We us chúng...","categories": ["jekyll","update"],
         "tags": [],
         "url": "/jekyll/update/2021/04/01/allinone.html",
         "teaser": null
